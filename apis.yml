@@ -1,7 +1,6 @@
 aid: aperiatechnologies
 name: Aperiatechnologies
-description: 'Aperiatechnologies is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Aperiatechnologies (operating as Aperia) provides automatic tire inflation solutions for commercial truck fleets. Their Halo platform monitors and maintains optimal tire pressure, reducing roadside breakdowns, safety violations, and fuel costs. The company combines IoT sensors, cloud analytics, and real‑time alerts to improve fleet safety and efficiency across North America.'
 url: https://raw.githubusercontent.com/api-evangelist/aperiatechnologies/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -11,6 +10,11 @@ specificationVersion: '0.20'
 created: '2026-09-25'
 modified: '2026-09-25'
 tags:
+- IoT
+- Fleet Management
+- Tire Inflation
+- Transportation
+- Safety
 - Company
 apis: []
 maintainers:
@@ -19,5 +23,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aperiatechnologies-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/aperiatechnologies
+  url: https://aperiatech.com
+- type: Documentation
+  url: https://aperiatech.com/company/
+- type: Support
+  url: https://support.aperiatech.com/help-center
+- type: Blog
+  url: https://aperiatech.com/blog
+- type: PrivacyPolicy
+  url: https://aperiatech.com/privacy-policy
+- type: TermsOfService
+  url: https://aperiatech.com/master_terms
+- type: Careers
+  url: https://aperiatech.com/careers
